@@ -1,7 +1,7 @@
 bl_info = {
-    "name": "Elin/Crusty Tools",
+    "name": "Randomize animation loop tools",
     "author": "R&E",
-    "description": "Create Randomized Animation Loop and more... hopefully",
+    "description": "Create Randomized Animation Loop and bale particles",
     "location": "Properties -> Tools",
     "doc_url": "",
     "warning": "",
@@ -28,7 +28,7 @@ class CustomPropertyGroup(bpy.types.PropertyGroup):
 class CustomToolShelf(bpy.types.Panel):
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_label = 'Elin/Crusty Tools'
+    bl_label = 'Randomize animation loop tools'
     bl_idname = 'VIEW3D_PT_customtoolshelf' # this helps to get rid of some warning message
     bl_context = 'objectmode'
     bl_category = 'Tool'
